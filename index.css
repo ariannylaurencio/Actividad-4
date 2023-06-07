@@ -1,0 +1,256 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+}
+
+.galeria{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.grid{
+    display: block;
+    grid-template-columns: repeat(5, 1fr);
+    grid-area: auto;
+    width: 100%;
+    
+}
+
+.content{
+    background-color: black;
+    padding: 3rem;
+    border-radius: 0.5rem;
+    text-align: justify;
+    
+    
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+
+
+
+
+img{
+    width: 50%;
+    height: 85%;
+    object-fit: cover;
+    border-radius: 1rem;
+    
+
+   
+}
+
+
+
+#tituloa{
+    color: bisque;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 60px;
+    position: relative;
+    animation-name: tituloa;
+    animation-duration: 05s;
+}
+
+
+@keyframes tituloa{
+    0%{
+        background: black;
+        left: 200px;
+        top: 50px;
+        
+    }
+
+    25%{
+        background-color: black;
+        left: 200px;
+        top: 65px;
+    }
+
+    50%{
+        background-color: black;
+        left: 200px;
+        top: 70px;
+    }
+
+    75%{
+        background-color: black;
+        left: 200px;
+        top: 60px;
+    }
+
+    100%{
+        background-color: black;
+        left: 200px;
+        top: 50px
+    }
+}
+
+.texto1{
+    color: beige;
+    font-size: 20px;
+    text-align: start;
+    margin-top: 50px
+}
+
+#titulo1{
+    color: bisque;
+    font-size: 30px;
+    text-align: unset;
+    margin-top: 50px;
+   
+}
+
+#titulo2{
+    color: bisque;
+    font-size: 30px;
+    text-align: unset;
+    margin-top: 50px;
+    background: .3#bbaf87;
+    
+    
+}
+
+#titulo3{
+    color: bisque;
+    font-size: 30px;
+    text-align: unset;
+    margin-top: 50px;
+}
+
+.texto2{
+    color: beige;
+    font-size: 20px;
+    text-align: start;
+    margin-top: 50px
+}
+
+.texto3{
+    color: beige;
+    font-size: 20px;
+    text-align: start;
+    margin-top: 50px
+    
+}
+
+#titulob{
+    color: bisque;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#tituloc{
+    color: cornsilk;
+    font-size: 30px;
+    text-align: start;
+    margin-top: 50px
+}
+
+#titulod{
+    color: cornsilk;
+    font-size: 30px;
+    text-align: start;
+    margin-top: 50px
+}
+
+#tituloe{
+    color: cornsilk;
+    font-size: 30px;
+    text-align: start;
+    margin-top: 50px
+}
+
+#titulof{
+    color: cornsilk;
+    font-size: 30px;
+    text-align: start;
+    margin-top: 50px
+}
+
+#titulog{
+    color: cornsilk;
+    font-size: 30px;
+    text-align: start;
+    margin-top: 50px
+}
+
+#tituloh{
+    color: cornsilk;
+    font-size: 30px;
+    text-align: start;
+    margin-top: 50px
+   
+    
+}
+
+.paraAnimal{
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #bbaf87;
+}
+
+.div1{
+    width: 900px;
+    height: 900px;
+    background: #bbaf87;
+    transition: all 10s ease-in-out;
+    -webkit-transition: all 10s;
+    -moz-transition: all 10s;
+    -ms-transition: all 10s;
+    -o-transition: all 10s;
+    transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    animation-iteration-count: infinite;
+    
+}
+
+.paraAnimal2{
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #bbaf87;
+    }
+
+
+.div1{
+    width: 900px;
+    height: 900px;
+    background: #bbaf87;
+    transition: all 10s ease-in-out;
+    -webkit-transition: all 10s;
+    -moz-transition: all 10s;
+    -ms-transition: all 10s;
+    -o-transition: all 10s;
+    transform: scale(2 3);
+    -webkit-transform: scale(2 3);
+    -moz-transform: scale(2 3);
+    -ms-transform: scale(2 3);
+    -o-transform: scale(2 3);
+    animation-iteration-count: infinite;
+
+    }
